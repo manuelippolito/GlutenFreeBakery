@@ -1,0 +1,206 @@
+html, body {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+/*----- Header -----*/
+
+.delights {
+    display: inline;
+    background-color: #fff;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: solid;
+    color:rgb(255, 157, 71);
+}
+
+.logo{
+    display: flex;
+    width: 250px;
+    height: auto;
+}
+
+#icons1 {
+    padding: .5em;
+    display: inline-block;
+    
+}
+
+.topmenu li {
+    display:inline-block;
+    font-size: 1.5em;
+    text-align: right;
+}
+.topmenu.omega {
+    margin-top: 100px;
+    float: right;
+}
+
+ul {
+    margin: 0;
+}
+
+li>a
+{
+    font-size: 1rem;
+}
+
+/*----- Main -----*/
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.7rem;
+
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mission-description {
+    font-size: 1.2rem;
+    text-align: center;
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
+    text-transform: capitalize;
+}
+
+.mission {
+    background-image: url("img_flour.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 70px auto;
+    position: relative;
+}
+
+.button {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1.3rem;
+    text-align: center;
+    border-radius: 4px;
+    color:hsl(360, 60%, 41%);
+    display: block;
+    font-weight: 700;
+    width: 250px;
+    padding: 17px;
+    margin: 40px auto;
+    border: 1px solid;
+}
+
+.button:hover {
+    color: rgb(255, 157, 71);
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bold;
+
+}
+/*----------- Products ----------*/
+
+h4 {
+    text-transform: capitalize;
+    color:black;
+    text-align: center;
+    font-style: italic;
+}
+
+.product-description h2 {
+    text-transform: uppercase;
+    text-align: center;
+    color:black;
+}
+
+
+.figure-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 1em;
+    margin-bottom: 20px;
+}
+
+figure img {
+    max-width: 300px;
+    max-height: 200px;
+    margin-bottom: 10px;
+}
+
+figcaption {
+    text-align: center;
+    text-decoration: none;;
+    text-transform: capitalize;
+}
+
+figcaption:hover {
+    text-decoration:solid;
+    color:rgb(255, 157, 71);
+}
+
+/*----------- Team ----------*/
+
+.team {
+    padding: 80px 100px 150px 100px;
+    text-align: center;
+    margin-top: 150px;
+    background-color: hsl(27, 100%, 89%);
+}
+
+.team h2 {
+    text-transform: uppercase;
+    color:hsl(360, 60%, 41%);
+    font-size: 1.7rem;
+}
+
+.team-description {
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 1em;
+    margin-bottom: 20px;
+}
+
+.team-description p {
+    text-align: center;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.team-description img {
+    border-radius: 10px;
+}
+/*----------- Company Description ----------*/
+
+
+
+/*----------- Location & Contacts ----------*/
+
+#logo2{
+    margin-top: 30px;
+    width: 250px;
+    height: auto;
+}
+
+.conclusion {
+    text-align: center;
+}
+
+footer {
+    font-size: .8rem;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
